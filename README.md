@@ -1,2 +1,3 @@
 # ffmpegCameraDemo
 ffmpeg调用本地摄像头，采集图片显示到界面，录制mp4视频，支持查询可用摄像头列表，摄像头分辨率，支持windows和ubuntu跨平台
+当前工程配置的是windows环境，ubuntu环境依赖库打包在ffmpeg+ubuntu+库.tar.gz，解压缩后可根据具体路径修改pro文件unix{}里面的头文件路径和库路径
