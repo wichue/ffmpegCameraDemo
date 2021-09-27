@@ -26,12 +26,12 @@ LIBS+=D:/GitCode/ffmpegCameraDemo/ffmpeg/dev/lib/libavcodec.dll.a\
 }
 unix{
 INCLUDEPATH+=/home/chw/HSCompany/videoCall/ffmpeg/include
-LIBS+=-L/home/hs_sst/HSCompany/videoCall/ffmpeg/lib -lx264\
-      -L/home/hs_sst/HSCompany/videoCall/ffmpeg/lib -lva\
-      -L/home/hs_sst/HSCompany/videoCall/ffmpeg/lib -lSDL2\
-      -L/home/hs_sst/HSCompany/videoCall/ffmpeg/lib -lva-drm\
-      -L/home/hs_sst/HSCompany/videoCall/ffmpeg/lib -lva-x11\
-      -L/home/hs_sst/HSCompany/videoCall/ffmpeg/lib -lvdpau\
+LIBS+=-L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lx264\
+      -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lva\
+      -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lSDL2\
+      -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lva-drm\
+      -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lva-x11\
+      -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lvdpau\
       -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lavcodec\
       -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lavdevice\
       -L/home/chw/HSCompany/videoCall/ffmpeg/lib/ -lavfilter\
